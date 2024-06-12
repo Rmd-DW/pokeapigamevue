@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  computed() {
+  data() {
     return {
       pokemonName: "",
       isPokemonDiscovered: false,
