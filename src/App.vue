@@ -28,7 +28,7 @@ export default {
   components: {
     pokemonCard,
   },
-  data() {
+  computed(){
     return {
       urlBase: 'https://pokeapi.co/api/v2/pokemon',
       pokemones: [],
